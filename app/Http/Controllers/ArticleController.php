@@ -107,7 +107,7 @@ class ArticleController extends Controller
         $article->update($data);
 
         return to_route('articles.index')
-            ->with('success', 'Product updated successfully');
+            ->with('success', 'Article updated successfully');
     }
 
     /**
